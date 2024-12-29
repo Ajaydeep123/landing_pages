@@ -1,6 +1,7 @@
-import { Logo } from "@/public/icons/logo"
+import { Logo } from "@/components/icons/logo"
 import { Container } from "./Container"
 import Link from "next/link"
+import { Button } from "./Button"
 
 export const Header = () =>{
     return (
@@ -39,9 +40,9 @@ export const Header = () =>{
                 <Link className="text-sm mr-6" href="#">
                   Log in
                 </Link>
-                <Link href="#">
+                <Button href="#">
                   Sign up
-                </Link>
+                </Button>
             </div>
         </Container>
     </header>

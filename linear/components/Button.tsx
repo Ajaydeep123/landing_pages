@@ -7,4 +7,4 @@ interface ButtonProps {
 
 export const Button = ({href,children}:ButtonProps)=>{
     return <Link href={href}>{children}</Link>
-}
+} 
